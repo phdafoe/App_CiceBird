@@ -20,6 +20,9 @@ class GameViewController: UIViewController {
             skView.showsFPS = true
             skView.showsNodeCount = true
             
+            //aqui presentamos el Gizmo del objeto (fisica y las colisiones)
+            skView.showsPhysics = true
+            
             /* Sprite Kit applies additional optimizations to improve rendering performance */
             skView.ignoresSiblingOrder = true
             
